@@ -40,5 +40,5 @@ const addMessage = (newMessage,response) => {
   response.writeHead(201, { 'Content-type': 'text/plain' });
   response.write(JSON.stringify(newMessage));
   response.end();
-  messages.push(new)
+  messages.push(newMessage)
 }
